@@ -13,8 +13,8 @@ namespace Controllers
         {
             new Products {Code = "1", Description = "Rice",  NetWeight = 1, Price = 50 },
             new Products {Code = "2", Description = "PASTA",  NetWeight = 0.5, Price = 55 },
-            new Products {Code = "3", Description = "FINDU",  NetWeight = 0.3, Price = 64 },
-            new Products {Code = "4", Description = "CROCCOLE", NetWeight = 0.4, Price = 97 }
+            new Products {Code = "3", Description = "Bread",  NetWeight = 0.3, Price = 40 },
+            new Products {Code = "4", Description = "Chocolate", NetWeight = 0.4, Price = 95 }
         };
 
         [HttpGet]
